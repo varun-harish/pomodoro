@@ -1,5 +1,16 @@
+import Header from "./components/Header";
+import Timer from "./components/Timer";
+import {Stack} from '@chakra-ui/react'
 function App() {
-  return <div>Hello React!</div>;
+  return(
+    <>
+    <Stack spacing={8}>
+      <Header/>
+      <Timer/>
+    </Stack>
+     
+    </>
+  );
 }
 
 export default App;
